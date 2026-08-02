@@ -1,0 +1,21 @@
+# Transform
+
+> Transform (Transform Data) was a metrics-store / semantic-layer company backed by Redpoint Ventures. It offered a metrics framework, a metrics catalog, and the MQL (Metrics Query Language) API, and open-sourced the MetricFlow metrics framework. Transform was acquired by dbt Labs, and transform.co now permanently redirects (HTTP 308) to getdbt.com. Its technology lives on as the dbt Semantic Layer / MetricFlow under dbt Labs.
+
+Transform no longer operates an independent developer surface: every path on
+transform.co — including /.well-known/* and /llms.txt — returns a 308 redirect
+to https://www.getdbt.com/. The artifacts in this profile document the legacy
+surface that remains publicly visible.
+
+## Legacy surface
+
+- [transform on PyPI](https://pypi.org/project/transform/): Transform MQL Client Library — the first-party Python client for Transform's MQL API (legacy, dormant)
+- [transform-data GitHub organization](https://github.com/transform-data): Transform's public repositories
+
+## Successor
+
+- [dbt Labs](https://www.getdbt.com/): acquirer; the dbt provider profile in this network covers the current dbt Semantic Layer APIs
+
+## Profile
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/transform/refs/heads/main/apis.yml): machine-readable profile of Transform in the API Evangelist network

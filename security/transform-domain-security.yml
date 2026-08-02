@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: transform.co
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 21 12:18:15 2026 GMT
+  hsts: true
+  hsts_max_age: 63072000
+domains:
+- domain: transform.co
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false

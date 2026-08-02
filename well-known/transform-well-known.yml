@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://transform.co/
+host: https://transform.co
+note: >-
+  transform.co no longer serves any content of its own — every path probed,
+  including the root, returns a 308 Permanent Redirect to https://www.getdbt.com/
+  (Transform / Transform Data was acquired by dbt Labs). No .well-known
+  discovery documents exist on this host; no raw files were saved because no
+  probe returned 200.
+documents:
+  - path: /.well-known/security.txt
+    status: 308
+    redirect: https://www.getdbt.com/
+  - path: /.well-known/openid-configuration
+    status: 308
+    redirect: https://www.getdbt.com/
+  - path: /.well-known/oauth-authorization-server
+    status: 308
+    redirect: https://www.getdbt.com/
+  - path: /.well-known/api-catalog
+    status: 308
+    redirect: https://www.getdbt.com/
+  - path: /.well-known/ai-plugin.json
+    status: 308
+    redirect: https://www.getdbt.com/
+  - path: /llms.txt
+    status: 308
+    redirect: https://www.getdbt.com/

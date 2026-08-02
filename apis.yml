@@ -1,8 +1,25 @@
 aid: transform
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transform.png
 name: Transform
-description: Transform is a company surfaced as a portfolio company of redpoint-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Transform (Transform Data) was a metrics-store and semantic-layer company
+  backed by Redpoint Ventures that offered a metrics framework, a metrics catalog,
+  and the MQL (Metrics Query Language) API, and open-sourced the MetricFlow metrics
+  framework. Transform was acquired by dbt Labs (announced February 2023), and its
+  technology lives on as MetricFlow and the dbt Semantic Layer. transform.co now
+  returns a 308 Permanent Redirect to getdbt.com on every path, and the company no
+  longer operates an independent API or developer surface — see the dbt provider
+  profile in this network for the successor APIs.
 url: https://raw.githubusercontent.com/api-evangelist/transform/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +27,19 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: dbt
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Metrics
+- Semantic Layer
+- Analytics
+- Data
+- Business Intelligence
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/transform-domain-security.yml
 - type: Website
   url: https://transform.co/
+- type: GitHubOrganization
+  url: https://github.com/transform-data
+- type: Packages
+  url: packages/transform-packages.yml
+- type: SDKs
+  url: packages/transform-packages.yml
+- type: LLMsTxt
+  url: llms/transform-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

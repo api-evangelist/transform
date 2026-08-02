@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/pypi/transform/json
+note: >-
+  Transform (Transform Data) was acquired by dbt Labs and transform.co now
+  permanently redirects to getdbt.com. The first-party Python client for the
+  Transform MQL (Metrics Query Language) API remains published on PyPI but is
+  legacy/dormant — the company's metrics-layer technology (MetricFlow) lives on
+  under dbt Labs (see the dbt provider profile in this network).
+packages:
+  - language: python
+    registry: pypi
+    name: transform
+    url: https://pypi.org/project/transform/
+    install: pip install transform
+    official: true
+    status: legacy
+    summary: Transform MQL Client Library
+    latest_version: 1.4.3
+    releases: 80
+    author: Transform Data <marco@transformdata.io>
